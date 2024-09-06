@@ -16,7 +16,7 @@ public class Contador {
         
         } catch (ParametrosInvalidosException exception) {
             // Imprimir a mensagem de erro personalizada
-            System.out.println("Erro: O segundo parâmetro deve ser maior que o primeiro.");
+            System.out.println("Erro: O segundo parâmetro deve ser maior que o primeiro." + exception);
         }
         
         terminal.close();
